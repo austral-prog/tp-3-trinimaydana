@@ -1,9 +1,16 @@
 def slice_advanced():
-    # Código a implementar utilizando input.
+   texto = "Awesome"
+    medio = int(len(texto)/2)
+    # Código a implementar, se debe utilizar la variable 'texto' para resolver el ejercicio.
+    # No se debe modificar la definición de la función, ni ingresar otro valor mediante input
 
-    texto = input().lower()
-    print(texto[4::2])
-    
+    print(texto.lower()[0:3])
+    print(texto.lower()[medio-1:medio+2])
+    print(texto.lower()[0:5]+texto.lower()[-2:])
+
+
+slice_simple()
+
 
 # Para verificar este ejercicio ejecutar el comando
-# `pytest tp3_slice_advanced_test.py` o `python tp3_slice_advanced_test.py`
+# `pytest tp3_slice_simple_test.py` o `python tp3_slice_simple_test.py`

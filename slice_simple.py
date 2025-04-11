@@ -8,6 +8,5 @@ def slice_simple():
     print(texto.lower()[medio-1:medio+2])
     print(texto.lower()[0:5]+texto.lower()[-2:])
 
-
 # Para verificar este ejercicio ejecutar el comando
 # `pytest tp3_slice_simple_test.py` o `python tp3_slice_simple_test.py`
